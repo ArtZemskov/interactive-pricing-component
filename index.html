@@ -21,8 +21,6 @@
     <link rel="stylesheet" href="styles.css" />
 
     <title>Frontend Mentor | Interactive pricing component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
     <main>
@@ -54,11 +52,33 @@
           </div>
 
           <div class="pricing-card-billing">
-            Monthly Billing Yearly Billing 25% discount
+            <span class="billing-label billing-label-monthly"
+              >Monthly Billing</span
+            >
+
+            <label class="billing-toggle">
+              <input
+                type="checkbox"
+                class="billing-toggle-input"
+                aria-label="Toggle yearly billing"
+              />
+              <span class="billing-toggle-slider"></span>
+            </label>
+
+            <span class="billing-label billing-label-yearly"
+              >Yearly Billing</span
+            >
+            <span class="billing-discount">25% discount</span>
           </div>
 
           <div class="pricing-card-bottom">
-            Unlimited websites 100% data ownership Email reports Start my trial
+            <ul class="pricing-card-features">
+              <li>Unlimited websites</li>
+              <li>100% data ownership</li>
+              <li>Email reports</li>
+            </ul>
+
+            <button class="pricing-card-button">Start my trial</button>
           </div>
         </div>
       </section>
