@@ -25,9 +25,44 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    Simple, traffic-based pricing Sign-up for our 30-day trial. No credit card
-    required. Pageviews $ /month Monthly Billing Yearly Billing 25% discount
-    Unlimited websites 100% data ownership Email reports Start my trial
+    <main>
+      <header>
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. No credit card required.</p>
+      </header>
+
+      <section>
+        <div class="pricing-card">
+          <div class="pricing-card-top">
+            <p class="pricing-card-pageviews">100K PAGEVIEWS</p>
+
+            <p class="pricing-card-price">
+              <span class="pricing-card-price-value">$16.00</span>
+              <span class="pricing-card-price-period">/ month</span>
+            </p>
+          </div>
+
+          <div class="pricing-card-slider">
+            <input
+              type="range"
+              min="0"
+              max="4"
+              step="1"
+              value="2"
+              class="pricing-card-range"
+            />
+          </div>
+
+          <div class="pricing-card-billing">
+            Monthly Billing Yearly Billing 25% discount
+          </div>
+
+          <div class="pricing-card-bottom">
+            Unlimited websites 100% data ownership Email reports Start my trial
+          </div>
+        </div>
+      </section>
+    </main>
 
     <div class="attribution">
       Challenge by
