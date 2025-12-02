@@ -26,29 +26,32 @@
     <main>
       <header>
         <h1>Simple, traffic-based pricing</h1>
-        <p>Sign-up for our 30-day trial. No credit card required.</p>
+        <p>
+          Sign-up for our 30-day trial.<br />
+          No credit card required.
+        </p>
       </header>
 
       <section>
         <div class="pricing-card">
-          <div class="pricing-card-top">
+          <div class="pricing-card-header">
             <p class="pricing-card-pageviews">100K PAGEVIEWS</p>
+
+            <div class="pricing-card-slider">
+              <input
+                class="pricing-card-range"
+                type="range"
+                min="0"
+                max="4"
+                step="1"
+                value="2"
+              />
+            </div>
 
             <p class="pricing-card-price">
               <span class="pricing-card-price-value">$16.00</span>
               <span class="pricing-card-price-period">/ month</span>
             </p>
-          </div>
-
-          <div class="pricing-card-slider">
-            <input
-              type="range"
-              min="0"
-              max="4"
-              step="1"
-              value="2"
-              class="pricing-card-range"
-            />
           </div>
 
           <div class="pricing-card-billing">
