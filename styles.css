@@ -147,6 +147,10 @@ header p {
   transition: background-color 0.2s ease;
 }
 
+.pricing-card-billing.is-yearly .billing-toggle {
+  background-color: hsl(174, 86%, 45%);
+}
+
 .billing-toggle-input {
   position: absolute;
   opacity: 0;
@@ -174,6 +178,14 @@ header p {
   padding: 0.1rem 0.5rem;
   border-radius: 999px;
   font-size: 0.7rem;
+}
+
+.billing-discount-full {
+  display: inline;
+}
+
+.billing-discount-short {
+  display: none;
 }
 
 .pricing-card-bottom {
@@ -304,6 +316,14 @@ header p {
     line-height: 1.8;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .billing-discount-full {
+    display: none;
+  }
+
+  .billing-discount-short {
+    display: inline;
   }
 }
 
