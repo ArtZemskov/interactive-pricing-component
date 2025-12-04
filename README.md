@@ -20,3 +20,6 @@ Users can:
 - Vanilla JavaScript
 
 ### Links
+
+- Solution URL: [Frontend Mentor](https**://www.frontendmentor.io/solutions/interactive-pricing-component-using-flexbox-and-javascript-gOm0dd1u0h)
+- Live Site URL: [GitHub Pages](https://artzemskov.github.io/interactive-pricing-component/)
